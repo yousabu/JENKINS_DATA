@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-08 14:52:36.184 UTC</timestamp>
+  <original>
+    <name>PIPELINE_PROJECT</name>
+    <number>3</number>
+  </original>
+  <md5sum>4cfd7645f33c3d3195afe98338044da4</md5sum>
+  <fileName>my-app-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>PIPELINE_PROJECT</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

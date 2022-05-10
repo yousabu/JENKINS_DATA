@@ -1,0 +1,11 @@
+commit 675fa47ae9e022317c7ac4a4499b833f85999eb3
+tree 005bb9ab4b255b97659e37c67d4f9384d21d294e
+parent 3534c32cf89d70ca8245a9e60923be0997e05c88
+author root <shbanmhmdywsf8@gmail.com> 2022-02-08 10:19:35 -0500
+committer root <shbanmhmdywsf8@gmail.com> 2022-02-08 10:19:35 -0500
+
+    update the app message
+
+
+:100755 100755 1855d6dfd078196c840e16e5d375853b60f25ebe f89ea4aa0277c27d7cd0aae2d682699b835162d5 M	java-app/src/main/java/com/mycompany/app/App.java
+:100755 100755 23b1dac10b973bd2e61432cb69bf28789042d324 459c9df5091e12a7b4e1948b90dfe41d7213732f M	java-app/src/test/java/com/mycompany/app/AppTest.java

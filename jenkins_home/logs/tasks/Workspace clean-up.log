@@ -1,0 +1,22 @@
+Started at Wed Feb 09 11:17:36 UTC 2022
+Checking ansible
+Checking backup_to_aws
+Checking env
+Checking go
+Checking job_dsl_example
+Checking maven
+Checking maven_dsl
+Checking maven_pro_dsl
+Checking myfirst
+Checking pipeline1
+Checking pipeline_env_var
+Checking pipeline_multisteps
+Checking pipeline_postaction
+Checking PIPELINE_PROJECT
+Checking pipeline_retry
+Checking pipeline_secrettest
+Checking pipeline_timeout
+Checking remote_task
+Checking yarb2
+Checking yarp
+Finished at Wed Feb 09 11:17:36 UTC 2022. 6ms

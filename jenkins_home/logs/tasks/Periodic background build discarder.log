@@ -1,0 +1,126 @@
+Started at Sat Feb 12 11:50:12 UTC 2022
+Processing ansible
+Offering ansible to Project Build Discarder
+Processing backup_to_aws
+Offering backup_to_aws to Project Build Discarder
+Processing env
+Offering env to Project Build Discarder
+Processing go
+Offering go to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven
+Offering maven to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_pro_dsl
+Offering maven_pro_dsl to Project Build Discarder
+Processing myfirst
+Offering myfirst to Project Build Discarder
+Processing pipeline1
+Offering pipeline1 to Project Build Discarder
+Processing pipeline_env_var
+Offering pipeline_env_var to Project Build Discarder
+Processing pipeline_multisteps
+Offering pipeline_multisteps to Project Build Discarder
+Processing pipeline_postaction
+Offering pipeline_postaction to Project Build Discarder
+Processing PIPELINE_PROJECT
+Offering PIPELINE_PROJECT to Project Build Discarder
+Processing pipeline_retry
+Offering pipeline_retry to Project Build Discarder
+Processing pipeline_secrettest
+Offering pipeline_secrettest to Project Build Discarder
+Processing pipeline_timeout
+Offering pipeline_timeout to Project Build Discarder
+Processing remote_task
+Offering remote_task to Project Build Discarder
+Processing yarb2
+Offering yarb2 to Project Build Discarder
+Processing yarp
+Offering yarp to Project Build Discarder
+Finished at Sat Feb 12 11:50:12 UTC 2022. 13ms
+Started at Sat Feb 12 12:50:12 UTC 2022
+Processing ansible
+Offering ansible to Project Build Discarder
+Processing backup_to_aws
+Offering backup_to_aws to Project Build Discarder
+Processing env
+Offering env to Project Build Discarder
+Processing go
+Offering go to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven
+Offering maven to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_pro_dsl
+Offering maven_pro_dsl to Project Build Discarder
+Processing myfirst
+Offering myfirst to Project Build Discarder
+Processing pipeline1
+Offering pipeline1 to Project Build Discarder
+Processing pipeline_env_var
+Offering pipeline_env_var to Project Build Discarder
+Processing pipeline_multisteps
+Offering pipeline_multisteps to Project Build Discarder
+Processing pipeline_postaction
+Offering pipeline_postaction to Project Build Discarder
+Processing PIPELINE_PROJECT
+Offering PIPELINE_PROJECT to Project Build Discarder
+Processing pipeline_retry
+Offering pipeline_retry to Project Build Discarder
+Processing pipeline_secrettest
+Offering pipeline_secrettest to Project Build Discarder
+Processing pipeline_timeout
+Offering pipeline_timeout to Project Build Discarder
+Processing remote_task
+Offering remote_task to Project Build Discarder
+Processing yarb2
+Offering yarb2 to Project Build Discarder
+Processing yarp
+Offering yarp to Project Build Discarder
+Finished at Sat Feb 12 12:50:12 UTC 2022. 3ms
+Started at Sat Feb 12 13:50:12 UTC 2022
+Processing ansible
+Offering ansible to Project Build Discarder
+Processing backup_to_aws
+Offering backup_to_aws to Project Build Discarder
+Processing env
+Offering env to Project Build Discarder
+Processing go
+Offering go to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven
+Offering maven to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_pro_dsl
+Offering maven_pro_dsl to Project Build Discarder
+Processing myfirst
+Offering myfirst to Project Build Discarder
+Processing pipeline1
+Offering pipeline1 to Project Build Discarder
+Processing pipeline_env_var
+Offering pipeline_env_var to Project Build Discarder
+Processing pipeline_multisteps
+Offering pipeline_multisteps to Project Build Discarder
+Processing pipeline_postaction
+Offering pipeline_postaction to Project Build Discarder
+Processing PIPELINE_PROJECT
+Offering PIPELINE_PROJECT to Project Build Discarder
+Processing pipeline_retry
+Offering pipeline_retry to Project Build Discarder
+Processing pipeline_secrettest
+Offering pipeline_secrettest to Project Build Discarder
+Processing pipeline_timeout
+Offering pipeline_timeout to Project Build Discarder
+Processing remote_task
+Offering remote_task to Project Build Discarder
+Processing yarb2
+Offering yarb2 to Project Build Discarder
+Processing yarp
+Offering yarp to Project Build Discarder
+Finished at Sat Feb 12 13:50:12 UTC 2022. 6ms

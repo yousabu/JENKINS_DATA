@@ -1,0 +1,10 @@
+commit 3534c32cf89d70ca8245a9e60923be0997e05c88
+tree d2a3a6531f31c8d14d024e8413e5311d294039d4
+parent 7bc15b8171ca0c398109dcffb16b65e3f4739e7a
+author root <shbanmhmdywsf8@gmail.com> 2022-02-08 10:03:28 -0500
+committer root <shbanmhmdywsf8@gmail.com> 2022-02-08 10:03:28 -0500
+
+    new one
+
+
+:100755 100755 58030a2fa7a367b30cd949ed5c5dfed4fcc906c8 641079964d3d356ca6d43b81137fe00f2318dcc4 M	jenkins/deploy/deploy.sh

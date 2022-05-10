@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1.78">
+  <approvedScriptHashes>
+    <string>00dabdc395c303badbc6ad984b78ddbb81caaa84</string>
+    <string>017d0db438428731cd600b6ebda805065433520f</string>
+    <string>223fb7d38ac77ec75b7e02c6f26b38685f902949</string>
+    <string>362bfa9c6d7ec1b9b7a96e04996f8e6ef7f782ca</string>
+    <string>4fa6b6244bc17e3f81d33b3f48bcba77604f84f7</string>
+    <string>6e0ca80aacf57add3a2f7c0c92fbb696e5b846ee</string>
+    <string>7e8bd9022e5f8fadad67f6d51076803378916c5d</string>
+    <string>8a3419f1c7177f650796f97515c1b8d047e0c820</string>
+    <string>ab5c593834c40396c622b941d5f94ff146eed730</string>
+  </approvedScriptHashes>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts>
+    <pendingScript>
+      <context>
+        <item>try</item>
+      </context>
+      <script>job(&apos;job_dsl_example&apos;) {
+
+}
+</script>
+      <language>groovy</language>
+    </pendingScript>
+  </pendingScripts>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.34">
+  <defaultSuffix></defaultSuffix>
+  <hudsonUrl>http://192.168.122.183:8080/</hudsonUrl>
+  <authentication>
+    <username>uukk102yahoo@gmail.com</username>
+    <password>{AQAAABAAAAAghrg6nGJPicrAuauw9O+MX+j6lDwxyEEBUtcDmpQKW6Zml3Vh6XebzmFUPsnTEuvm}</password>
+  </authentication>
+  <smtpHost>smtp.gmail.com</smtpHost>
+  <useSsl>true</useSsl>
+  <useTls>false</useTls>
+  <smtpPort>465</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>

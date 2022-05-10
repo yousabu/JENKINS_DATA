@@ -1,0 +1,8 @@
+Started by user [8mha:////4GIP+xj5NOtaS+M4ifG+aOOvrfheLpJNZNtqv6mLI8hEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mYoussef Abu hamda
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/jenkins_home/workspace/maven_pro_dsl
+Processing provided DSL script
+ERROR: (script, line 2) No signature of method: javaposse.jobdsl.dsl.jobs.FreeStyleJob.describsion() is applicable for argument types: (java.lang.String) values: [Maven]
+Possible solutions: description(java.lang.String)
+Finished: FAILURE

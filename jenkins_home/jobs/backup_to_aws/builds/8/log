@@ -1,0 +1,21 @@
+Started by user [8mha:////4GIP+xj5NOtaS+M4ifG+aOOvrfheLpJNZNtqv6mLI8hEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mYoussef Abu hamda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup_to_aws
+[SSH] script:
+aws_secret_key=**********
+aws_bucket_name="jenkins-mysql**********"
+mysql_password=**********
+database_name="testdb"
+mysql_host="db_host"
+
+/tmp/script.sh $mysql_host  $mysql_password  $database_name  $aws_secret_key  $aws_bucket_name
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'testdb' AND TABLE_NAME = 'info';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109)
+
+[SSH] completed
+[SSH] exit-status: 2
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

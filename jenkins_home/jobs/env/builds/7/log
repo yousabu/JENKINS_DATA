@@ -1,0 +1,10 @@
+Started by user [8mha:////4GIP+xj5NOtaS+M4ifG+aOOvrfheLpJNZNtqv6mLI8hEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mYoussef Abu hamda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/env
+[env] $ /bin/sh -xe /tmp/jenkins13521038602469360724.sh
++ echo BUILD NUMBER 7
+BUILD NUMBER 7
++ echo vvvvvvvvvvvvvvvvvvv
+vvvvvvvvvvvvvvvvvvv
+Sending e-mails to: uukk102yahoo@gmail.com
+Finished: SUCCESS

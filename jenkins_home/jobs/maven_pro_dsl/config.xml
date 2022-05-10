@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <javaposse.jobdsl.plugin.ExecuteDslScripts plugin="job-dsl@1.78.3">
+      <scriptText>job(&apos;maven_dsl&apos;){
+    describsion(&apos;Maven&apos;)
+
+    scm {
+        git(&apos;http://git:80/jenkins/maven.git&apos; , &apos;master&apos;, {node -&gt; node / &apos;extentions&apos; &lt;&lt; &apos;&apos;})
+    }
+
+    steps {
+        maven {
+            mavenInstallation(&apos;jenkins_maven&apos;)
+            goal(&apos;test&apos;)
+        }
+        maven {
+            mavenInstallation(&apos;jenkins_maven&apos;)
+            goal(&apos;-B -DskipTests clean package&apos;)
+        }
+        shell(&apos;&apos;&apos;
+                echo &quot;******************&quot;
+                echo &quot;Deploying JAR&quot;
+                echo &quot;******************&quot;
+                java -jar /var/jenkins_home/workspace/maven/target/my-app-1.0-SNAPSHOT.jar
+        &apos;&apos;&apos;)
+        publisher {
+            aechiveArtifacts(&apos;target/*jar&apos;)
+            archiveJunit(&apos;target/surefire-reports/*.xml&apos;)
+            mailer(&apos;uukk102yahoo@gmail.com&apos;, true, true)
+        }
+
+    }
+}</scriptText>
+      <usingScriptText>true</usingScriptText>
+      <sandbox>false</sandbox>
+      <ignoreExisting>false</ignoreExisting>
+      <ignoreMissingFiles>false</ignoreMissingFiles>
+      <failOnMissingPlugin>false</failOnMissingPlugin>
+      <failOnSeedCollision>false</failOnSeedCollision>
+      <unstableOnDeprecation>false</unstableOnDeprecation>
+      <removedJobAction>IGNORE</removedJobAction>
+      <removedViewAction>IGNORE</removedViewAction>
+      <removedConfigFilesAction>IGNORE</removedConfigFilesAction>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.ExecuteDslScripts>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

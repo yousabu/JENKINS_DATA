@@ -1,0 +1,27 @@
+Started by user [8mha:////4GIP+xj5NOtaS+M4ifG+aOOvrfheLpJNZNtqv6mLI8hEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mYoussef Abu hamda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote_task
+[SSH] script:
+
+NAME=youssef
+echo "Hello, $NAME, current date is is $(date)" >/tmp/remote_file
+whoami
+
+[SSH] executing...
+[SSH] Exception:Auth fail
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:519)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.createSession(CredentialsSSHSite.java:132)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.executeCommand(CredentialsSSHSite.java:208)
+	at org.jvnet.hudson.plugins.SSHBuilder.perform(SSHBuilder.java:104)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:812)
+	at hudson.model.Build$BuildExecution.build(Build.java:198)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:520)
+	at hudson.model.Run.execute(Run.java:1891)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:440)
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

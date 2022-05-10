@@ -1,0 +1,9 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/env
+[env] $ /bin/sh -xe /tmp/jenkins6781356825797748811.sh
++ echo BUILD NUMBER 4
+BUILD NUMBER 4
++ echo vvvvvvvvvvvvvvvvvvv
+vvvvvvvvvvvvvvvvvvv
+Finished: SUCCESS
